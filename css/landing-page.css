@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
@@ -9,19 +9,21 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  font-weight: 400;
+}
+
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/house.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -67,8 +69,8 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .features-icons .features-icons-item {
@@ -104,7 +106,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/house.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -121,6 +123,51 @@ header.masthead h1 {
 }
 
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logo {
+  width: 150px;
+}
+
+.lead {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+span {
+  white-space: nowrap;
+}
+
+a {
+  color: black;
+}
+
+.email {
+  margin-right: 0.5rem !important;
+  border: none !important;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.button {
+  background-color: #039be5 !important;
+}
+
+.button:hover {
+  background-color: #0288d1 !important;
+}
+
+@media (max-width: 768px) {
+  #mc_embed_signup {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .email {
+    margin-right: 0px !important;
+  }
 }
