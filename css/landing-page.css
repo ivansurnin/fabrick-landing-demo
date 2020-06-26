@@ -27,6 +27,7 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  opacity: 0.5;
 }
 
 header.masthead .overlay {
